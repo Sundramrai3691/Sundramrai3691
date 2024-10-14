@@ -1,14 +1,12 @@
-## Hi there 👋
+## Hi there 👋 
 
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif" />
 
 <h1 align="center">Hi 👋, I'm Sundram Rai</h1>
 <h3 align="center">A passionate tech enthusiast from India</h3>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
-
 <p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=sundramrai45&label=Profile%20views&color=0e75b6&style=flat" alt="sundramrai45" /> 
+  <img src="https://komarev.com/ghpvc/?username=Sundramrai3691&label=Profile%20views&color=0e75b6&style=flat" alt="Sundramrai3691" /> 
 </p>
 
 <p align="left"> 
@@ -62,8 +60,8 @@
   </a> 
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sundramrai45&show_icons=true&locale=en&layout=compact" alt="sundramrai45" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Sundramrai3691&show_icons=true&locale=en&layout=compact" alt="Sundramrai3691" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sundramrai45&show_icons=true&locale=en" alt="sundramrai45" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Sundramrai3691&show_icons=true&locale=en" alt="Sundramrai3691" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sundramrai45&" alt="sundramrai45" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sundramrai3691&" alt="Sundramrai3691" /></p>
