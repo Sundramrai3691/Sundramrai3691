@@ -17,7 +17,7 @@
 - 🌱 Currently learning **DSA, Machine Learning & Computer Vision**
 - ⚙️ Building smart systems using **FastAPI, React, Streamlit, and Supabase**
 - 💬 Ask me about **Python, ML, CV, Flask, FastAPI, React, Bootstrap**
-- 📫 Reach me at: **sundamrai4687@gmail.com**
+- 📫 Reach me at: **sundamrai45@gmail.com**
 - ⚡ Fun fact: *"I’m constantly debugging life, one line of code at a time."*
 
 ---
