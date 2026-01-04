@@ -64,28 +64,13 @@
 
 ---
 
-<h3 align="left">📊 GitHub Activity</h3>
+### 📊 GitHub Activity
 
-<div align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=Sundramrai3691&show_icons=true&theme=radical&cache_seconds=1800" 
-    width="48%" 
-    alt="GitHub Stats"
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sundramrai3691&layout=compact&theme=radical&cache_seconds=1800" 
-    width="48%" 
-    alt="Top Languages"
-  />
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sundramrai3691&show_icons=true&theme=radical&cache_seconds=1800)
 
-<p align="center">
-  <img 
-    src="https://streak-stats.demolab.com?user=Sundramrai3691&theme=radical" 
-    width="60%" 
-    alt="GitHub Streak"
-  />
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sundramrai3691&layout=compact&theme=radical&cache_seconds=1800)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Sundramrai3691&theme=radical)
 
 
 ---
