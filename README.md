@@ -64,16 +64,29 @@
 
 ---
 
-<h3 align="left">🔥   My GitHub Stats</h3>
+<h3 align="left">📊 GitHub Activity</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sundramrai3691&show_icons=true&theme=radical" width="48%" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sundramrai3691&layout=compact&theme=radical" width="48%" alt="Top languages" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Sundramrai3691&show_icons=true&theme=radical&cache_seconds=1800" 
+    width="48%" 
+    alt="GitHub Stats"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sundramrai3691&layout=compact&theme=radical&cache_seconds=1800" 
+    width="48%" 
+    alt="Top Languages"
+  />
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sundramrai3691&theme=radical" width="60%" alt="Streak stats"/>
+  <img 
+    src="https://streak-stats.demolab.com?user=Sundramrai3691&theme=radical" 
+    width="60%" 
+    alt="GitHub Streak"
+  />
 </p>
+
 
 ---
 
