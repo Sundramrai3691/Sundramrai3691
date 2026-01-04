@@ -66,11 +66,12 @@
 
 ### 📊 GitHub Activity
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sundramrai3691&show_icons=true&theme=radical&cache_seconds=1800)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sundramrai3691&theme=github_dark)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sundramrai3691&layout=compact&theme=radical&cache_seconds=1800)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sundramrai3691&theme=github_dark)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Sundramrai3691&theme=radical)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sundramrai3691&theme=github_dark)
+
 
 
 ---
