@@ -1,73 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Sundram Rai</title>
-  <desc id="desc">Backend systems, real-time software, and applied AI.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Sundram Rai — software, systems, and applied AI</title>
+  <desc id="desc">An animated, surreal technical landscape with luminous orbital geometry, a floating data core, and a dark ultraviolet palette.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="58%" stop-color="#0C1727"/>
-      <stop offset="100%" stop-color="#102B35"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080912"/><stop offset=".48" stop-color="#101025"/><stop offset="1" stop-color="#15132d"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#65F3D1"/>
-      <stop offset="100%" stop-color="#7C9CFF"/>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF7B9C"/><stop offset=".48" stop-color="#BE8BFF"/><stop offset="1" stop-color="#7CEBD6"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#37D7C0" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#37D7C0" stop-opacity="0"/>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7B9C"/><stop offset=".5" stop-color="#9A79FF"/><stop offset="1" stop-color="#78F1D6"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#A875FF" stop-opacity=".34"/><stop offset=".55" stop-color="#826BFF" stop-opacity=".12"/><stop offset="1" stop-color="#826BFF" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#B9D7E8" stroke-opacity="0.075" stroke-width="1"/>
+    <radialGradient id="core" cx=".32" cy=".24" r=".82">
+      <stop offset="0" stop-color="#E8DFFF"/><stop offset=".2" stop-color="#B798FF"/><stop offset=".56" stop-color="#7458DD"/><stop offset=".84" stop-color="#3D317B"/><stop offset="1" stop-color="#17142B"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24213D" stop-opacity=".96"/><stop offset="1" stop-color="#101321" stop-opacity=".87"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#C9C7FF" stroke-opacity=".065" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.1" fill="#E9E5FF" fill-opacity=".16"/>
     </pattern>
-    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="15"/>
-    </filter>
+    <filter id="blur24" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="1200" height="430" rx="24"/></clipPath>
   </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <rect width="1200" height="430" fill="url(#grid)"/>
+    <ellipse cx="940" cy="190" rx="330" ry="285" fill="url(#aura)"/>
+    <circle cx="218" cy="408" r="155" fill="#FF739B" opacity=".09" filter="url(#blur24)"/>
+    <circle cx="1005" cy="60" r="120" fill="#66F3D5" opacity=".07" filter="url(#blur24)"/>
 
-  <rect width="1200" height="360" rx="22" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-  <circle cx="1010" cy="168" r="285" fill="url(#glow)"/>
-  <circle cx="1040" cy="150" r="155" fill="#65F3D1" opacity="0.08" filter="url(#soft-glow)"/>
+    <!-- Slow, atmospheric scan line -->
+    <g opacity=".22">
+      <path d="M0 0H1200" stroke="#9E8DFF" stroke-width="1"/>
+      <path d="M0 0H1200" stroke="#E0D8FF" stroke-width="2" stroke-dasharray="70 1130">
+        <animate attributeName="stroke-dashoffset" values="0;-1200" dur="17s" repeatCount="indefinite"/>
+      </path>
+    </g>
 
-  <g fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.68">
-    <path d="M805 75 H900 L946 121 H1060"/>
-    <path d="M820 260 H908 L950 218 H1090 L1125 183"/>
-    <path d="M900 75 V116 L934 150 V190 L970 226"/>
-    <path d="M1058 121 V158 L1094 194 V252"/>
-    <path d="M852 181 H900 L930 211"/>
-  </g>
-  <g fill="#65F3D1">
-    <circle cx="805" cy="75" r="4"/><circle cx="900" cy="75" r="4"/>
-    <circle cx="946" cy="121" r="4"/><circle cx="1060" cy="121" r="4"/>
-    <circle cx="820" cy="260" r="4"/><circle cx="908" cy="260" r="4"/>
-    <circle cx="950" cy="218" r="4"/><circle cx="1090" cy="218" r="4"/>
-    <circle cx="1125" cy="183" r="4"/><circle cx="1094" cy="252" r="4"/>
-    <circle cx="852" cy="181" r="4"/><circle cx="930" cy="211" r="4"/>
-  </g>
-  <g fill="#DCEAF4" opacity="0.76">
-    <circle cx="1000" cy="76" r="2"/><circle cx="1110" cy="106" r="2"/>
-    <circle cx="1148" cy="246" r="2"/><circle cx="1008" cy="290" r="2"/>
-    <circle cx="875" cy="302" r="2"/><circle cx="1160" cy="150" r="2"/>
-  </g>
+    <!-- Editorial typography -->
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <rect x="60" y="48" width="255" height="30" rx="15" fill="#201B38" stroke="#A99AFF" stroke-opacity=".44"/>
+      <circle cx="78" cy="63" r="4" fill="#82F0D6" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;.36;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="92" y="67" font-size="11" fill="#D6D0FF" font-weight="700" letter-spacing="2">INDEPENDENT BUILDER / 2027</text>
+      <text x="56" y="169" font-size="79" font-weight="760" letter-spacing="-4.2" fill="#F7F5FF">Sundram</text>
+      <text x="56" y="247" font-size="79" font-weight="760" letter-spacing="-4.2" fill="url(#name)">Rai<tspan fill="#F7F5FF">.</tspan></text>
+      <rect x="63" y="270" width="54" height="4" rx="2" fill="url(#name)"/>
+      <text x="61" y="312" font-size="21" font-weight="550" fill="#F0ECFF">Systems that think.</text>
+      <text x="61" y="340" font-size="21" font-weight="550" fill="#B9B4D8">Software that holds.</text>
+      <text x="62" y="386" font-size="11" font-weight="700" letter-spacing="2.1" fill="#8A87AD">BACKEND ENGINEERING  /  REAL-TIME SYSTEMS  /  APPLIED AI</text>
+    </g>
 
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="66" y="62" fill="#75E8D1" font-size="14" font-weight="700" letter-spacing="3.5">ENGINEERING / PORTFOLIO 2026–27</text>
-    <text x="62" y="151" fill="#F4F8FC" font-size="62" font-weight="750" letter-spacing="-2">Sundram Rai</text>
-    <rect x="66" y="177" width="64" height="4" rx="2" fill="url(#accent)"/>
-    <text x="66" y="218" fill="#D9E5F0" font-size="21" font-weight="500">Build beyond the happy path.</text>
-    <text x="66" y="260" fill="#A8BED0" font-size="14" font-weight="600" letter-spacing="2">BACKEND SYSTEMS  ·  REAL-TIME SOFTWARE  ·  APPLIED AI</text>
-    <text x="66" y="316" fill="#698398" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">NIT RAIPUR / ELECTRICAL ENGINEERING / 2027</text>
-  </g>
+    <!-- Abstract orbit machine: deliberately asymmetrical and alive -->
+    <g transform="translate(914 183)">
+      <circle r="170" fill="url(#aura)"/>
+      <circle r="142" fill="none" stroke="#8373C8" stroke-opacity=".20" stroke-width="1" stroke-dasharray="2 7"/>
+      <ellipse rx="142" ry="51" fill="none" stroke="url(#orbit)" stroke-width="1.5" stroke-opacity=".72" transform="rotate(-27)">
+        <animateTransform attributeName="transform" type="rotate" values="-27;333" dur="44s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="120" ry="64" fill="none" stroke="#88EBD9" stroke-opacity=".72" stroke-width="1.15" transform="rotate(55)">
+        <animateTransform attributeName="transform" type="rotate" values="55;-305" dur="52s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="151" ry="28" fill="none" stroke="#F78BAE" stroke-opacity=".6" stroke-width="1" transform="rotate(73)">
+        <animateTransform attributeName="transform" type="rotate" values="73;433" dur="61s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle r="76" fill="#8F6BFF" opacity=".21" filter="url(#blur24)">
+        <animate attributeName="r" values="70;86;70" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="61" fill="url(#core)" stroke="#E6DFFF" stroke-opacity=".62" stroke-width="1.2"/>
+      <path d="M-44 -12 C-22 -53 19 -49 39 -19 S18 37 -8 20 S-4 -16 21 -4 S20 24 4 32" fill="none" stroke="#E9E3FF" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+      <path d="M-35 30 Q0 -2 38 15" fill="none" stroke="#8AF5DC" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+      <circle cx="0" cy="0" r="4" fill="#FCFAFF" filter="url(#glow)"/>
 
-  <g transform="translate(835 119)">
-    <rect x="0" y="0" width="302" height="124" rx="12" fill="#060B12" fill-opacity="0.72" stroke="#8ACFCB" stroke-opacity="0.35"/>
-    <path d="M0 31 H302" stroke="#8ACFCB" stroke-opacity="0.25"/>
-    <circle cx="18" cy="16" r="3.5" fill="#F87171"/>
-    <circle cx="31" cy="16" r="3.5" fill="#FBBF24"/>
-    <circle cx="44" cy="16" r="3.5" fill="#65F3D1"/>
-    <text x="18" y="53" fill="#8299AB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11">// engineering signals</text>
-    <text x="18" y="76" fill="#D9E5F0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">latency  <tspan fill="#65F3D1">17.3 ms</tspan></text>
-    <text x="18" y="96" fill="#D9E5F0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">accuracy <tspan fill="#65F3D1">86%</tspan></text>
-    <text x="18" y="115" fill="#D9E5F0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">workflow <tspan fill="#65F3D1">async</tspan></text>
+      <g filter="url(#glow)">
+        <circle cx="0" cy="-142" r="4.5" fill="#FF89AC"><animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/></circle>
+        <circle cx="106" cy="-42" r="4" fill="#8CF5DC"><animate attributeName="opacity" values=".35;1;.35" dur="4s" repeatCount="indefinite"/></circle>
+        <circle cx="-84" cy="86" r="3.5" fill="#C5A1FF"><animate attributeName="r" values="2.5;4.5;2.5" dur="2.7s" repeatCount="indefinite"/></circle>
+      </g>
+      <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" fill="#D8D1FF" letter-spacing="1.5" opacity=".75">
+        <text x="-159" y="-93">INPUT</text>
+      </g>
+    </g>
+
+    <!-- Floating translucent instrumentation panel -->
+    <g transform="translate(768 285)">
+      <animateTransform attributeName="transform" type="translate" values="768 285;768 279;768 285" dur="8s" repeatCount="indefinite"/>
+      <rect width="360" height="100" rx="13" fill="url(#glass)" stroke="#BEB2FF" stroke-opacity=".4"/>
+      <path d="M0 30H360" stroke="#BEB2FF" stroke-opacity=".2"/>
+      <circle cx="17" cy="15" r="3" fill="#FF789D"/><circle cx="28" cy="15" r="3" fill="#F6DD7A"/><circle cx="39" cy="15" r="3" fill="#83F3D9"/>
+      <text x="54" y="19" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" fill="#A9A1D1" letter-spacing="1.3">LIVE ENGINEERING SIGNALS</text>
+      <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+        <text x="17" y="51" font-size="10" fill="#AAA4C9">latency</text><text x="17" y="72" font-size="19" font-weight="700" fill="#F7F4FF">17.3<tspan font-size="10" fill="#8CF5DC"> ms</tspan></text>
+        <path d="M126 41V84" stroke="#BEB2FF" stroke-opacity=".22"/>
+        <text x="146" y="51" font-size="10" fill="#AAA4C9">extraction</text><text x="146" y="72" font-size="19" font-weight="700" fill="#F7F4FF">86<tspan font-size="10" fill="#FF91AE">%</tspan></text>
+        <path d="M259 41V84" stroke="#BEB2FF" stroke-opacity=".22"/>
+        <text x="279" y="51" font-size="10" fill="#AAA4C9">workflow</text><text x="279" y="72" font-size="15" font-weight="700" fill="#8CF5DC">async</text>
+      </g>
+    </g>
+
+    <!-- Sparse floating particles -->
+    <g fill="#F4EFFF">
+      <circle cx="650" cy="100" r="1.5" opacity=".7"><animate attributeName="opacity" values=".15;.8;.15" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="698" cy="219" r="1.3" opacity=".55"><animate attributeName="cy" values="219;205;219" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="1137" cy="65" r="1.8" opacity=".6"><animate attributeName="opacity" values=".7;.12;.7" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="713" cy="373" r="1.4" opacity=".55"><animate attributeName="cx" values="713;724;713" dur="7s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect x="1" y="1" width="1198" height="428" rx="23" fill="none" stroke="#C5B9FF" stroke-opacity=".24"/>
   </g>
-  <rect x="1" y="1" width="1198" height="358" rx="21" fill="none" stroke="#A5D7E5" stroke-opacity="0.18"/>
 </svg>
