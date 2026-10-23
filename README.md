@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Sundram Rai: backend systems, real-time software, and applied AI" />
+  <img src="./profile-header.svg" width="100%" alt="Sundram Rai: backend systems, real-time software, and applied AI" />
 </p>
 
 <p align="center">
@@ -104,9 +104,9 @@ Built an agentic employee assistant for HR policy and workforce workflows using 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-contribution-grid-snake.svg" width="100%" alt="Animated view of Sundram Rai's GitHub contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-snake.svg" width="100%" alt="Animated view of Sundram Rai's GitHub contribution graph" />
   </picture>
 </p>
 
