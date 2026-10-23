@@ -78,6 +78,26 @@
 
 [![An image of @sundramrai3691's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/sundramrai3691)](https://holopin.io/@sundramrai3691)
 
+<h3 align="center">🐍 My GitHub Contributions</h3>
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-snake.svg"
+    />
+    <img
+      alt="GitHub contribution snake animation"
+      src="https://raw.githubusercontent.com/Sundramrai3691/Sundramrai3691/output/github-snake.svg"
+      width="100%"
+    />
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
