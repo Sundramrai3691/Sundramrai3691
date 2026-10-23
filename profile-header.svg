@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sundram Rai</title>
+  <desc id="desc">Backend systems, real-time software, and applied AI.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="58%" stop-color="#0C1727"/>
+      <stop offset="100%" stop-color="#102B35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#65F3D1"/>
+      <stop offset="100%" stop-color="#7C9CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#37D7C0" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#37D7C0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#B9D7E8" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <circle cx="1010" cy="168" r="285" fill="url(#glow)"/>
+  <circle cx="1040" cy="150" r="155" fill="#65F3D1" opacity="0.08" filter="url(#soft-glow)"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.68">
+    <path d="M805 75 H900 L946 121 H1060"/>
+    <path d="M820 260 H908 L950 218 H1090 L1125 183"/>
+    <path d="M900 75 V116 L934 150 V190 L970 226"/>
+    <path d="M1058 121 V158 L1094 194 V252"/>
+    <path d="M852 181 H900 L930 211"/>
+  </g>
+  <g fill="#65F3D1">
+    <circle cx="805" cy="75" r="4"/><circle cx="900" cy="75" r="4"/>
+    <circle cx="946" cy="121" r="4"/><circle cx="1060" cy="121" r="4"/>
+    <circle cx="820" cy="260" r="4"/><circle cx="908" cy="260" r="4"/>
+    <circle cx="950" cy="218" r="4"/><circle cx="1090" cy="218" r="4"/>
+    <circle cx="1125" cy="183" r="4"/><circle cx="1094" cy="252" r="4"/>
+    <circle cx="852" cy="181" r="4"/><circle cx="930" cy="211" r="4"/>
+  </g>
+  <g fill="#DCEAF4" opacity="0.76">
+    <circle cx="1000" cy="76" r="2"/><circle cx="1110" cy="106" r="2"/>
+    <circle cx="1148" cy="246" r="2"/><circle cx="1008" cy="290" r="2"/>
+    <circle cx="875" cy="302" r="2"/><circle cx="1160" cy="150" r="2"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="66" y="62" fill="#75E8D1" font-size="14" font-weight="700" letter-spacing="3.5">ENGINEERING / PORTFOLIO 2026–27</text>
+    <text x="62" y="151" fill="#F4F8FC" font-size="62" font-weight="750" letter-spacing="-2">Sundram Rai</text>
+    <rect x="66" y="177" width="64" height="4" rx="2" fill="url(#accent)"/>
+    <text x="66" y="218" fill="#D9E5F0" font-size="21" font-weight="500">Build beyond the happy path.</text>
+    <text x="66" y="260" fill="#A8BED0" font-size="14" font-weight="600" letter-spacing="2">BACKEND SYSTEMS  ·  REAL-TIME SOFTWARE  ·  APPLIED AI</text>
+    <text x="66" y="316" fill="#698398" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">NIT RAIPUR / ELECTRICAL ENGINEERING / 2027</text>
+  </g>
+
+  <g transform="translate(835 119)">
+    <rect x="0" y="0" width="302" height="124" rx="12" fill="#060B12" fill-opacity="0.72" stroke="#8ACFCB" stroke-opacity="0.35"/>
+    <path d="M0 31 H302" stroke="#8ACFCB" stroke-opacity="0.25"/>
+    <circle cx="18" cy="16" r="3.5" fill="#F87171"/>
+    <circle cx="31" cy="16" r="3.5" fill="#FBBF24"/>
+    <circle cx="44" cy="16" r="3.5" fill="#65F3D1"/>
+    <text x="18" y="53" fill="#8299AB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11">// engineering signals</text>
+    <text x="18" y="76" fill="#D9E5F0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">latency  <tspan fill="#65F3D1">17.3 ms</tspan></text>
+    <text x="18" y="96" fill="#D9E5F0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">accuracy <tspan fill="#65F3D1">86%</tspan></text>
+    <text x="18" y="115" fill="#D9E5F0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">workflow <tspan fill="#65F3D1">async</tspan></text>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="21" fill="none" stroke="#A5D7E5" stroke-opacity="0.18"/>
+</svg>
