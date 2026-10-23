@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Sundram_Rai_Profile_Header_v2.png" width="100%" alt="Sundram Rai — systems that think, software that holds, backend engineering, real-time systems, and applied AI" />
+  <img src="./profile-header.svg" width="100%" alt="Animated profile header for Sundram Rai, featuring orbital geometry and engineering signals" />
 </p>
 
 <p align="center">
